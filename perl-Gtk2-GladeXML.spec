@@ -2,8 +2,8 @@
 
 %define		_realname	Gtk2-GladeXML
 
-Summary:	Provides mechinisms for instantiating and utilization of user interfaces created with Glade-2
-Summary(pl):	Udostêpnia mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
+Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
+Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
 Name:		perl-Gtk2-GladeXML
 Version:	0.26
 Release:	1
@@ -55,6 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS README ChangeLog
 %{perl_vendorarch}/Gtk2/GladeXML.pm
+%dir %{perl_vendorarch}/auto/Gtk2/GladeXML
 %attr(755,root,root) %{perl_vendorarch}/auto/Gtk2/GladeXML/*.so
 %{perl_vendorarch}/auto/Gtk2/GladeXML/*.bs
 %{_mandir}/man3/*
