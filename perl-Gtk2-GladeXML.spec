@@ -7,18 +7,22 @@
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
 Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
 Name:		perl-%{pnam}
-Version:	0.95
+Version:	1.00
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	56d04901e79f6bcf96ea7b6665703b26
+# Source0-md5:	c10083a94d10be7f681ca297612cd552
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	libglade2-devel >= 2.0.0
-BuildRequires:	perl-Gtk2 >= 1.00
-BuildRequires:	perl-Glib >= 1.00
+BuildRequires:  perl-ExtUtils-Depends
+BuildRequires:  perl-ExtUtils-PkgConfig
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-Glib >= 1.02
+BuildRequires:	perl-Gtk2 >= 1.00
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-Glib >= 1.02
+Requires:	perl-Gtk2 >= 1.00
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
