@@ -1,9 +1,9 @@
 #
 # Conditional build:
-%bcond_with tests       # perform "make test" (requires X server)
+%bcond_with	tests	# perform "make test" (requires X server)
 #
-%include        /usr/lib/rpm/macros.perl
-%define pnam    Gtk2-GladeXML
+%include	/usr/lib/rpm/macros.perl
+%define	pnam	Gtk2-GladeXML
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
 Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
 Name:		perl-%{pnam}
@@ -15,8 +15,8 @@ Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	c10083a94d10be7f681ca297612cd552
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	libglade2-devel >= 2.0.0
-BuildRequires:  perl-ExtUtils-Depends
-BuildRequires:  perl-ExtUtils-PkgConfig
+BuildRequires:	perl-ExtUtils-Depends
+BuildRequires:	perl-ExtUtils-PkgConfig
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Glib >= 1.02
 BuildRequires:	perl-Gtk2 >= 1.00
