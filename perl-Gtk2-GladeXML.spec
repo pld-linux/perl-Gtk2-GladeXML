@@ -3,7 +3,7 @@
 %define		_realname	Gtk2-GladeXML
 
 Summary:	Provides mechinisms for instantiating and utilization of user interfaces created with Glade-2
-Summary(pl):	Dostarcza mechanizmow pozwalaj±cych na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
+Summary(pl):	Udostêpnia mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
 Name:		perl-Gtk2-GladeXML
 Version:	0.26
 Release:	1
@@ -20,10 +20,17 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-After designing an application with glade-2 the
-layout and configuration is saved in a XML formatted file. libglade is
-a library to load and use files of this particular XML format at
-application run time. This module is a set of mappings of libglade.
+After designing an application with Glade-2 the layout and
+configuration is saved in a XML formatted file. libglade is a library
+to load and use files of this particular XML format at application run
+time. This module is a set of mappings of libglade.
+
+%description -l pl
+Po zaprojektowaniu aplikacji korzystaj±cej z Glade-2 jej wygl±d i
+konfiguracja s± zapamiêtywane w postaci plików w formacie XML.
+libglade jest bibliotek± s³u¿±c± do odczytu i korzystania z tego
+specyficznego formatu XML w czasie dzia³ania aplikacji. Ten modu³
+stanowi zbiór odwzorowañ biblioteki libglade.
 
 %prep
 %setup -q -n %{_realname}-%{version}
