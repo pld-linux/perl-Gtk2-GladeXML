@@ -12,7 +12,7 @@ Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	345c6f885755cdc4a2cbdb43996d0c7f
+# Source0-md5:	3784c11601b433fec7bc7412194c2f2c
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	libglade2-devel >= 2.0.0
 BuildRequires:	perl-Gtk2 >= 1.00
