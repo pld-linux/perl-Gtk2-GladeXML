@@ -5,12 +5,12 @@
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
 Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
 Name:		perl-Gtk2-GladeXML
-Version:	0.26
+Version:	0.93
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/ML/MLEHMANN/%{_realname}-%{version}.tar.gz
-# Source0-md5:	d25d2dde67a15b695ac6a1bc01584e9f
+# Source0-md5:	345c6f885755cdc4a2cbdb43996d0c7f
 URL:		http://gtk2-perl-sourceforge.net/
 BuildRequires:	libglade2-devel >= 2.0.0
 BuildRequires:	perl-Gtk2 >= 0.95
