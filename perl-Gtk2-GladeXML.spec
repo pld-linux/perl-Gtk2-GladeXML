@@ -3,7 +3,7 @@
 %bcond_with	tests	# perform "make test" (requires X server)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	Gtk2-GladeXML
+%define		pnam	Gtk2-GladeXML
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
 Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
 Name:		perl-Gtk2-GladeXML
