@@ -6,7 +6,7 @@
 %define	pnam	Gtk2-GladeXML
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
 Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
-Name:		perl-GladeXML
+Name:		perl-Gtk2-GladeXML
 Version:	1.00
 Release:	1
 License:	LGPL
