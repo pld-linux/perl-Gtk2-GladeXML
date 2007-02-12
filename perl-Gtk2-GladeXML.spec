@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Gtk2-GladeXML
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
-Summary(pl):	Mechanizmy pozwalaj±ce na wykorzystywanie interfejsów stworzonych za pomoc± Glade-2
+Summary(pl.UTF-8):   Mechanizmy pozwalajÄ…ce na wykorzystywanie interfejsÃ³w stworzonych za pomocÄ… Glade-2
 Name:		perl-Gtk2-GladeXML
 Version:	1.006
 Release:	1
@@ -31,12 +31,12 @@ configuration is saved in a XML formatted file. libglade is a library
 to load and use files of this particular XML format at application run
 time. This module is a set of mappings of libglade.
 
-%description -l pl
-Po zaprojektowaniu aplikacji korzystaj±cej z Glade-2 jej wygl±d i
-konfiguracja s± zapamiêtywane w postaci plików w formacie XML.
-libglade jest bibliotek± s³u¿±c± do odczytu i korzystania z tego
-specyficznego formatu XML w czasie dzia³ania aplikacji. Ten modu³
-stanowi zbiór odwzorowañ biblioteki libglade.
+%description -l pl.UTF-8
+Po zaprojektowaniu aplikacji korzystajÄ…cej z Glade-2 jej wyglÄ…d i
+konfiguracja sÄ… zapamiÄ™tywane w postaci plikÃ³w w formacie XML.
+libglade jest bibliotekÄ… sÅ‚uÅ¼Ä…cÄ… do odczytu i korzystania z tego
+specyficznego formatu XML w czasie dziaÅ‚ania aplikacji. Ten moduÅ‚
+stanowi zbiÃ³r odwzorowaÅ„ biblioteki libglade.
 
 %prep
 %setup -q -n %{pnam}-%{version}
