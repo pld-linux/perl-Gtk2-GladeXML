@@ -46,6 +46,7 @@ stanowi zbiór odwzorowań biblioteki libglade.
 	INSTALLDIRS=vendor
 
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
