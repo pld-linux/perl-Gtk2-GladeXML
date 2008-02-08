@@ -8,7 +8,7 @@ Summary:	Mechanisms for instantiating and utilization of user interfaces created
 Summary(pl.UTF-8):	Mechanizmy pozwalające na wykorzystywanie interfejsów stworzonych za pomocą Glade-2
 Name:		perl-Gtk2-GladeXML
 Version:	1.006
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
