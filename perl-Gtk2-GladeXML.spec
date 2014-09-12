@@ -68,5 +68,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Gtk2/GladeXML
 %attr(755,root,root) %{perl_vendorarch}/auto/Gtk2/GladeXML/*.so
 %{perl_vendorarch}/Gtk2/GladeXML/Install
-%{perl_vendorarch}/auto/Gtk2/GladeXML/*.bs
 %{_mandir}/man3/*
