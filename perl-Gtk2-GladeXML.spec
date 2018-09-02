@@ -20,6 +20,7 @@ BuildRequires:	perl-ExtUtils-PkgConfig
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Glib >= 1.140
 BuildRequires:	perl-Gtk2 >= 1.140
+BuildRequires:	perl-Gtk2-devel >= 1.140
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Glib >= 1.140
 Requires:	perl-Gtk2 >= 1.140
