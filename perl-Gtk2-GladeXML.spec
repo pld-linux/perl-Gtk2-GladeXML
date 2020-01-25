@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires X server)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pnam	Gtk2-GladeXML
 Summary:	Mechanisms for instantiating and utilization of user interfaces created with Glade-2
 Summary(pl.UTF-8):	Mechanizmy pozwalające na wykorzystywanie interfejsów stworzonych za pomocą Glade-2
