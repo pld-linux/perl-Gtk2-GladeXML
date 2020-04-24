@@ -21,6 +21,7 @@ BuildRequires:	perl-Glib >= 1.140
 BuildRequires:	perl-Gtk2 >= 1.140
 BuildRequires:	perl-Gtk2-devel >= 1.140
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	perl-Glib >= 1.140
 Requires:	perl-Gtk2 >= 1.140
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
