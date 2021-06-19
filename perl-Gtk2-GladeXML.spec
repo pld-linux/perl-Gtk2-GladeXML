@@ -44,8 +44,8 @@ stanowi zbiór odwzorowań biblioteki libglade.
 Uwaga: ten moduł jest przestarzały i nie jest już utrzymywany.
 
 %package devel
-Summary:	Development files for Perl Gnome2-Canvas bindings
-Summary(pl.UTF-8):	Pliki programistyczne wiązań Gnome2-Canvas dla Perla
+Summary:	Development files for Perl Gtk2-GladeXML bindings
+Summary(pl.UTF-8):	Pliki programistyczne wiązań Gtk2-GladeXML dla Perla
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Requires:	libglade2-devel >= 1:2.6.0
@@ -54,10 +54,10 @@ Requires:	perl-Glib-devel >= 1.120
 Requires:	perl-Gtk2-devel >= 1.121
 
 %description devel
-Development files for Perl Gnome2-Canvas bindings.
+Development files for Perl Gtk2-GladeXML bindings.
 
 %description devel -l pl.UTF-8
-Pliki programistyczne wiązań Gnome2-Canvas dla Perla.
+Pliki programistyczne wiązań Gtk2-GladeXML dla Perla.
 
 %prep
 %setup -q -n %{pnam}-%{version}
